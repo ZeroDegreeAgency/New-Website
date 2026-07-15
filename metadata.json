@@ -1,0 +1,6 @@
+{
+  "name": "Zero Degree Agency",
+  "description": "An ultra-premium, scroll-driven interactive digital experience for Zero Degree Agency (0° Group), specializing in boutique marketing for real estate, consulting, and event campaigns.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
