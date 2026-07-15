@@ -101,6 +101,11 @@ export default function Hero() {
         ref={contentRef}
         className="max-w-4xl relative z-20 text-center flex flex-col items-center justify-center"
       >
+        {/* Eyebrow: visible keyword line above the cinematic tagline, for SEO relevance and quick brand/context orientation */}
+        <span className="hero-subtitle font-mono text-[10px] sm:text-xs tracking-[0.3em] text-white/50 uppercase mb-4 opacity-0">
+          Zero Degree Agency — Real Estate Marketing, Ahmedabad
+        </span>
+
         {/* Minimalistic Word-by-Word Title */}
         <h1
           ref={titleRef}
