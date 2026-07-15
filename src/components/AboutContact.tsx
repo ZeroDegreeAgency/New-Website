@@ -350,6 +350,19 @@ export default function AboutContact() {
 
         </div>
       </section>
+
+      <footer className="border-t border-white/5 py-10 px-6 md:px-12 lg:px-24 bg-[#050505]">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+          <p className="font-sans text-[11px] text-text-secondary/70 leading-relaxed max-w-xl">
+            Zero Degree Agency (0° Group) — Real Estate Marketing Agency in Ahmedabad, Gujarat, India.
+            Cinematic brand strategy, drone videography, and lead generation for real estate developers,
+            consulting businesses, and event organizers.
+          </p>
+          <p className="font-mono text-[10px] tracking-widest text-text-secondary/50 uppercase">
+            © {new Date().getFullYear()} Zero Degree Agency. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
