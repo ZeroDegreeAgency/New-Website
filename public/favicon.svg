@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <rect width="100" height="100" rx="20" fill="#000000"/>
+  <defs>
+    <mask id="favicon-mask">
+      <rect x="0" y="0" width="100" height="100" fill="#ffffff" />
+      <circle cx="70" cy="25" r="14.5" fill="#000000" />
+    </mask>
+  </defs>
+  <path
+    d="M 50 12 C 28 12 20 29 20 50 C 20 71 28 88 50 88 C 72 88 80 71 80 50 C 80 29 72 12 50 12 Z M 50 19 C 33 19 31 32 31 50 C 31 68 33 81 50 81 C 67 81 69 68 69 50 C 69 32 67 19 50 19 Z"
+    fill="#ffffff"
+    fill-rule="evenodd"
+    mask="url(#favicon-mask)"
+  />
+  <circle
+    cx="70"
+    cy="25"
+    r="8"
+    stroke="#ffffff"
+    stroke-width="4.5"
+    fill="none"
+  />
+</svg>
